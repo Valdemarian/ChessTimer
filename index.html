@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container" onselectstart="return false">
+	<div class="wrap_name_effect"></div>
+	<div class="wrap_name">
+		<div class="wrap_name_wrap player">
+			<div class="wrap_name_wrap_1">
+				<input type="text" class="name" placeholder="Введите имя">
+			</div>
+			<div class="wrap_name_wrap_2">
+				<span class="counter" id="counter_1">0</span>
+			</div>
+		</div>
+		<div class="wrap_name_wrap vs">
+			<span>VS</span>
+		</div>
+		<div class="wrap_name_wrap player">
+			<div class="wrap_name_wrap_1">
+				<input type="text" class="name" placeholder="Введите имя">
+			</div>
+			<div class="wrap_name_wrap_2">
+				<span class="counter" id="counter_2">0</span>
+			</div>
+		</div>
+	</div>
+	<div class="wrap_effect" onmousedown="return false"></div>
+	<div class="wrap">
+		<div class="wrap_1 wrapper">
+			<a class="play_color black " id="play_color_1">ЧЕРНЫЕ</a>
+			<a class="play_color " id="play_color_2">БЕЛЫЕ</a>
+		</div>
+		<div class="wrap_2 wrapper">
+			<div class="timer" id="timer_span-1"><span id="timer1_min">4</span>:<span id="timer1_sec">59</span></div>
+			<div class="timer" id="timer_span-2"><span id="timer2_min">4</span>:<span id="timer2_sec">59</span></div>
+		</div>
+		<div class="wrap_3 wrapper">
+			<a id="min_5" class="btn">5 МИНУТ</a>
+			<a id="paused" class="btn btn_red">ПАУЗА</a>
+			<a id="min_10" class="btn">10 МИНУТ</a>
+		</div>
+	</div>
+</div>
+<script src="js/var.js"></script>
+<script src="js/name.js"></script>
+<script src="js/gametime.js"></script>
+<script src="js/chesscolor.js"></script>
+<script src="js/keypress.js"></script>
+<script src="js/pausedtimer.js"></script>
+<script src="js/timerstart.js"></script>  
+<script src="js/timerover.js"></script>
+<script src="js/timer.js"></script>
+</body>
+</html>
